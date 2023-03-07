@@ -15,7 +15,7 @@ function App() {
       <Header/>
       <Main>
        <Routes>
-         <Route path='/' element={<HomePage/>}/>
+         <Route path='/country-react' element={<HomePage/>}/>
          <Route path='/countries' element={<CountryPage cards={cards} setCards={setCards}/>}/>
          <Route path='/details/:id' element={<DetailsPage/>}/>
          <Route path='/error' element={<ErrorPage/>}/>
